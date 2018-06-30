@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>YouTube API Search</title>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Videos on YouTube</h1>
+    </header>
+
+    <form class="js-searchForm">
+      <label for="searchBox">Search<input id="searchBox" type="text" class="js-query" required></label>
+      
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="js-searchResults" aria-live="assertive">
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
